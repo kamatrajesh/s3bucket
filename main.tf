@@ -27,7 +27,7 @@ resource "aws_instance" "ubuntu" {
   }
 }
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket1978"
+  bucket = "my-tf-test-bucket197805"
 
   tags = {
     Name        = "My bucket"
